@@ -1,7 +1,7 @@
 {
   "name": "github-link-converter-downloader",
-  "version": "1.0.0",
-  "description": "Convert GitHub links between release tag pattern and release download pattern, blob pattern and raw pattern, or download it with wget or curl.",
+  "version": "1.0.1",
+  "description": "# GitHub Link Converter\nDownloader\nConvert GitHub links between release tag pattern and release download pattern, blob pattern and raw pattern, or download it with `wget` or `curl`.\n## Command Line\n`Usage: node githubLinkConverterDownloadwer.js <url1> <url2> ... [-w|--wget | -c|--curl]`\n## GitHub Link Converter Site\n[https://Willie169.github.io/github-link-converter-downloader](https://Willie169.github.io/github-link-converter-downloader)\n## NPM Package\n[https://www.npmjs.com/package/github-link-converter-downloader](https://www.npmjs.com/package/github-link-converter-downloader)",
   "main": "githubLinkConverterDownloadwer.js",
   "scripts": {
     "test": "node githubUrlConverter.js \"https://github.com/username/repo/releases/tag/v1.0.0/file.zip\" \"https://github.com/username/repo/blob/main/file.js\" \"https://raw.githubusercontent.com/username/repo/main/file.js\""
