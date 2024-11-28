@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GitHub URL Converter</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+</head>
+<body>
+<div class="navbar">
+<div class="container">
+<a href="https://willie169.github.io"><img src="img/willie169.jpeg" alt="Willie169" style="height: 40px;"></a>
+<a href="https://willie169.github.io/Android-Non-Root"><img src="img/Android_Non_Root.png" alt="Android Non Root" style="height: 40px;"></a>
+</div>
+</div>
+<div class="content">
+<h1>GitHub URL Converter</h1>
+<p>Convert GitHub URLs between release tag pattern and release download pattern, blob pattern and raw pattern.</p>
+<form id="form" onsubmit="output(event);">
+<div class="form-group">
+<br />
+<label for="input">Input</label>
+<input type="url" id="input" placeholder="Enter GitHub URL here" required>
+</div>
+<button type="submit">Convert</button>
+<br />
+<div class="form-group">
+<label for="output">Output</label>
+<div id="result" class="output-div"></div>
+</div>
+</form>
+</div>
+<footer>
+<div class="footer">
+<p>&copy; 2024 Willie169. Licensed under MIT License.</p>
+</div>
+</footer>
+</body>
+</html>
