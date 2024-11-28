@@ -1,0 +1,29 @@
+{
+  "name": "github-link-converter-downloader",
+  "version": "1.0.0",
+  "description": "Convert GitHub links between release tag pattern and release download pattern, blob pattern and raw pattern, or download it with wget or curl.",
+  "main": "githubLinkConverterDownloadwer.js",
+  "scripts": {
+    "test": "node githubUrlConverter.js \"https://github.com/username/repo/releases/tag/v1.0.0/file.zip\" \"https://github.com/username/repo/blob/main/file.js\" \"https://raw.githubusercontent.com/username/repo/main/file.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willie169/github-link-converter-downloader.git"
+  },
+  "keywords": [
+    "github",
+    "link",
+    "converter",
+    "downloader",
+    "wget",
+    "curl",
+    "url",
+    "pattern"
+  ],
+  "author": "willie169",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Willie169/github-link-converter-downloader/issues"
+  },
+  "homepage": "https://github.com/Willie169/github-link-converter-downloader#readme"
+}
