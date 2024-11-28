@@ -2,7 +2,7 @@
 
 Convert GitHub links between release tag pattern and release download pattern, blob pattern and raw pattern, or download it with `wget` or `curl`.
 
-## Use file directly
+## Command Line
 
 `Usage: node githubLinkConverterDownloadwer.js <url1> <url2> ... [-w|--wget | -c|--curl]`
 
