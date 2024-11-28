@@ -1,6 +1,6 @@
 ## GitHub Link Converter Downloader
 
-Convert GitHub URLs between release tag pattern and release download pattern, blob pattern and raw pattern, or download it with `wget` or `curl`.
+Convert GitHub Links between release tag pattern and release download pattern, blob pattern and raw pattern, or download it with `wget` or `curl`.
 
 Use file directly:
 
