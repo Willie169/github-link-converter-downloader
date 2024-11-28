@@ -1,5 +1,7 @@
-## GitHub URL Converter
+## GitHub Link Converter Downloader
 
-Convert GitHub URLs between release tag pattern and release download pattern, blob pattern and raw pattern, or download it.
+Convert GitHub URLs between release tag pattern and release download pattern, blob pattern and raw pattern, or download it with `wget` or `curl`.
 
-`Usage: node githubUrlConverter.js <url1> <url2> ... [-w|--wget | -c|--curl]`
+Use file directly:
+
+`Usage: node githubLinkConverterDownloadwer.js <url1> <url2> ... [-w|--wget | -c|--curl]`
