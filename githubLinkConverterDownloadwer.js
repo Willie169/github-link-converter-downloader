@@ -2,10 +2,10 @@ const { exec } = require('child_process');
 const path = require('path');
 
 function githubLinkConverter(link) {
-    const releaseTagPattern = /https:\/\/github\.com\/([\w-]+)\/([\w-]+)\/releases\/tag\/([\d\.]+)\/([\w\-\.]+)$/;
-    const blobPattern = /https:\/\/github\.com\/([\w-]+)\/([\w-]+)\/blob\/([\w\/\-\.]+)$/;
-    const releaseDownloadPattern = /https:\/\/github\.com\/([\w-]+)\/([\w-]+)\/releases\/download\/([\d\.]+)\/([\w\-\.]+)$/;
-    const rawPattern = /https:\/\/raw\.githubusercontent\.com\/([\w-]+)\/([\w-]+)\/([\w\/\-\.]+)$/;
+    const releaseTagPattern = /https:\/\/github\.com\/([^\/]+)\/([^\/]+)\/releases\/tag\/([^\/]+)\/([^\/]+)$/;
+    const blobPattern = /https:\/\/github\.com\/([^\/]+)\/([^\/]+)\/blob\/([^\/]+)$/;
+    const releaseDownloadPattern = /https:\/\/github\.com\/([^\/]+)\/([^\/]+)\/releases\/download\/([^\/]+)\/([^\/]+)$/;
+    const rawPattern = /https:\/\/raw\.githubusercontent\.com\/([^\/]+)\/([^\/]+)\/([^\/]+)$/;
     if (releaseTagPattern.test(link)) {
         return link.replace(releaseTagPattern, 'https://github.com/$1/$2/releases/download/$3/$4');
     }
